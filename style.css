@@ -15,6 +15,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   background-color: rgb(65, 20, 65);
 }
 
@@ -32,14 +34,16 @@ header {
 
 main {
   display: grid;
+  justify-items: center;
   grid-template-columns: min-content min-content;
-  gap: 20px;
-  width: min-content;
+  gap: .2rem;
+
 }
 
 main img {
+  margin: ;
   box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.719);
-  width: 40vw;
+  width: 50vw;
   max-width: 300px;
   border-radius: 8px;
 }
@@ -47,7 +51,7 @@ main img {
 footer {
   opacity: 0.5;
   display: flex;
-  padding: 50px 20% 50px 20%;
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
   position: absolute;
@@ -73,10 +77,11 @@ footer img {
   justify-content: center;
   gap: 30px;
   display: flex;
-  height: 300px;
 }
 
 #profile img {
+  width: 50%;
+  height: 50%;
   opacity: 0.8;
   border-radius: 8px;
 }
